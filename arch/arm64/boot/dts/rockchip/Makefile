@@ -212,6 +212,7 @@ dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3568-toybrick-sd0-android.dtb
 dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3568-toybrick-sd0-linux.dtb
 dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3568-toybrick-x0-android.dtb
 dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3568-toybrick-x0-linux.dtb
+dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3568-cs203-mls3568j.dtb
 dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3568m-serdes-evb-camera-csi-v10.dtb
 dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3568m-serdes-evb-camera-dvp-v10.dtb
 dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3568m-serdes-evb-display-dsi0-command2dsi-lp4x-v10.dtb
