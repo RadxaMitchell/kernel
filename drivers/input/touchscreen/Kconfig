@@ -1149,6 +1149,15 @@ config TOUCHSCREEN_USB_EASYTOUCH
 	  Say Y here if you have an EasyTouch USB Touch controller.
 	  If unsure, say N.
 
+config TOUCHSCREEN_SITRONIX_TS
+	bool "Sitronix Touchscreen"
+	depends on I2C && FB
+	default n
+	help
+	  Say Y here if you have Sitronix touch panel.
+
+	  If unsure, say N.
+
 config TOUCHSCREEN_TOUCHIT213
 	tristate "Sahara TouchIT-213 touchscreen"
 	select SERIO
